@@ -16,7 +16,7 @@ const Modal = ({ children }) => {
 
 const PoliticalLeaningChart = ({ currentSubreddit, data }) => {
   return (
-    <div className='w-full h-full p-10'>
+    <div className='w-full h-full px-1 py-6 sm:p-10'>
       <h2 className='mb-5 text-xl font-bold text-center'> {currentSubreddit} Political Leaning Chart </h2>
       <ResponsiveContainer width="100%" height="90%">
         <AreaChart data={data} stackOffset="expand" margin={{ top: 5, right: 20, bottom: 5, left: 0 }}>
