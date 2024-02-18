@@ -80,7 +80,7 @@ const TrendingPoliticians = ({trendingPoliticians}) => {
 const PostsScanned = ({ posts }) => {
   return (
     <div className='w-full h-full p-5'>
-      <h2 className='mb-3 text-xl font-bold text-center'> Posts Scanned </h2>
+      <h2 className='mb-3 text-xl font-bold text-center'> Posts Scanned Today </h2>
       <p className='font-bold text-center text-8xl'> {posts} </p>
     </div>
   );
