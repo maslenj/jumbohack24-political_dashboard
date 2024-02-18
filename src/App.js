@@ -176,7 +176,7 @@ function App() {
           <div
             key={box.id}
             onClick={box.modalContent != null ? (() => openModal(box.modalContent)) : null}
-            className={`transition ease-in-out hover:scale-[102%] ${box.rowSpan === 1 && "row-span-1"} ${box.rowSpan === 2 && "row-span-2"} ${box.rowSpan === 3 && "row-span-3"} ${box.rowSpan === 4 && "row-span-4"} ${box.colSpan === 1 && "md:col-span-1"} ${box.colSpan === 2 && "md:col-span-2"} col-span-3 rounded-xl border-2 border-slate-400/10 bg-neutral-100 p-4 dark:bg-neutral-900 text-white flex items-center justify-center ${box.modalContent != null && 'cursor-pointer'} flex-col`}
+            className={`transition ease-in-out hover:scale-[102%] ${box.rowSpan === 1 && "row-span-1"} ${box.rowSpan === 2 && "row-span-2"} ${box.rowSpan === 3 && "row-span-3"} ${box.rowSpan === 4 && "row-span-4"} ${box.colSpan === 1 && "md:col-span-1"} ${box.colSpan === 2 && "md:col-span-2"} col-span-3 rounded-xl border-2 border-slate-400/10 p-4 bg-neutral-900 text-white flex items-center justify-center ${box.modalContent != null && 'cursor-pointer'} flex-col`}
           >
             {box.content}
           </div>
