@@ -14,6 +14,10 @@ driver = webdriver.Chrome(
     options = options
 )
 
+name = driver \
+    .find_element(By.TAG_NAME, 'h1') \
+    .text
+
 # maxime the controlled browser window
 driver.fullscreen_window()
 

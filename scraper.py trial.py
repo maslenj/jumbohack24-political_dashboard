@@ -13,10 +13,6 @@ driver.get('https://www.reddit.com/r/politics/top/')
 for i in range(20):
     driver.execute_script("window.scrollBy(0, arguments[0]);", 10000)
     time.sleep(2)
-name = driver \
-    .find_element(By.TAG_NAME, 'h1') \
-    .text
-print(name)
 
 post_html_elements = driver.find_elements(By.TAG_NAME, 'article')
 all_titles = []
@@ -28,12 +24,17 @@ for post_html_element in post_html_elements:
     for comments_element in comments_elements:
         comments = comments_element.get_attribute('innerText')
         all_titles.append(comments)
-        print(comments)
 
+fo = open("all_titles.txt", "w")
 # scraping logic...
 for i in all_titles:
-    print(i)
+    fo.write(i)
+    fo.write("\n")
 
+numbers_of_posts = len(all_titles)
+fo.write(str(numbers_of_posts))
+
+fo.close()
 # Remember to close the WebDriver when you're done
 driver.quit()
 
