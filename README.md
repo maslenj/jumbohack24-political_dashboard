@@ -1,5 +1,5 @@
 # Reddit Politics Sentiment Analysis Dashboard
-The following project was made for the 2024 JumboHack Hackathon. The website with the dashboard can be found here: https://jumbohack24-political-dashboard.vercel.app/
+The following project was made for the 2024 JumboHack Hackathon where it won Honorable Mention in the Political Awareness track. The website with the dashboard can be found here: https://jumbohack24-political-dashboard.vercel.app/
 
 ## Inspiration
 As our access to news becomes increasingly reliant on algorithms designed to hold our attention, consumers become enthralled in what is known as “epistemic bubbles”, more commonly nicknamed “pipelines”, where users will only come across information that panders to them. The division between those on either side of the political compass is growing with each passing day, and often people are unaware of how much their/others’ ideologies are being spoken about.
