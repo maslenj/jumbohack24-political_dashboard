@@ -1,3 +1,5 @@
+![Screen Shot 2024-02-18 at 4 32 27 PM](https://github.com/maslenj/jumbohack24-political_dashboard/assets/62911272/e4ff18bb-486b-44c2-ae31-da3b9c0e72a2)
+
 # Reddit Politics Sentiment Analysis Dashboard
 The following project was made for the 2024 JumboHack Hackathon where it won Honorable Mention in the Political Awareness track. The website with the dashboard can be found here: https://jumbohack24-political-dashboard.vercel.app/
 
